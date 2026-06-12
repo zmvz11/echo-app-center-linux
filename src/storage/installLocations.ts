@@ -1,6 +1,6 @@
 export type InstallLocation = { id: string; path: string; isDefault: boolean };
 const KEY = 'echo_app_center_install_locations';
-const DEFAULT = [{ id: "default", path: "~/EchoApps", isDefault: true }];
+const DEFAULT = [{ id: "default", path: "C:\\EchoApps", isDefault: true }];
 
 export function getInstallLocations(): InstallLocation[] {
   const raw = localStorage.getItem(KEY);

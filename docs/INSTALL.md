@@ -1,9 +1,9 @@
-# Install Echo App Center on Linux
+# Install Echo App Center on Windows
 
 Use only the root installer:
 
 ```text
-./install.sh
+INSTALL.bat
 ```
 
 This package was cleaned so there are not multiple competing install buttons or setup paths.
